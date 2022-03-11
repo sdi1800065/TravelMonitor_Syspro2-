@@ -1,7 +1,3 @@
-# TravelMonitor_Syspro2-
-Process creation ,System calls,Communication with pipes,low-level I/O and bash scripts.
-
-
 The purpose of this paper is to familiarize you with creating processes using system calls fork / exec, process communication through pipes, low-level use I / O and creating bash scripts.
 As part of this work you will implement a distributed travelMonitor tool that will
 accepts requests from citizens who want to travel to other countries, will check if they have done it
@@ -240,4 +236,5 @@ locates in the inputFile
 In each subdirectory, it creates numFilesPerDirectory files named country-n.txt
 where n is a positive integer. As the inputFile is processed it will detect them all
 the lines that correspond to a country and will distribute the round robin lines to the files
-named country-n.txt 
+named country-n.txt
+
